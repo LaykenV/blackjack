@@ -5,14 +5,13 @@ import TitleScreen from './components/titleScreen/TitleScreen';
 import GameScreen from './components/gameScreen/GameScreen';
 
 function App() {
-  const [credits, setCredits] = useState(0 as number);
-  const [cards, setCards] = useState([] as any)
+  const [credits, setCredits] = useState(50 as number);
 
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<TitleScreen />} />
-        <Route path="/play" element={<GameScreen />} />
+        <Route path="/" element={<TitleScreen credits={credits} setCredits={setCredits}/>} />
+        <Route path="/play" element={<GameScreen credits={credits} setCredits={setCredits}/>} />
       </Routes>
     </BrowserRouter>
   );

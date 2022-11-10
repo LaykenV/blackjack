@@ -1,6 +1,15 @@
-import React from "react";
+import React, {useState} from "react";
 
-function GameScreen() {
+type gameScreenProps = {
+    credits: number;
+    setCredits: any;
+}
+
+const GameScreen: React.FunctionComponent<gameScreenProps> = ({credits, setCredits}) => {
+    const [cards, setCards] = useState([] as any);
+    const [betAmount, setBetAmount] = useState(0 as number);
+
+
     return(
         <div className="gameScreenDiv">Game Screen</div>
     )

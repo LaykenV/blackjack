@@ -14,3 +14,61 @@
     font-size: 100px;
     color: rgb(226, 128, 128);
 }
+
+.creditDiv {
+    height: 43%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    color: rgb(226, 128, 128);
+    font-size: 30px;
+}
+
+.creditsBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    font-size: 60px;
+}
+
+.creditsPreview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.creditImg {
+    height: 60px;
+    width: 60px;
+    background: transparent;
+    border-radius: 100%;
+    transform: rotate(15deg);
+}
+
+.playButtonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playButton {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: rgb(226, 128, 128);
+    border: none;
+}
+
+.buttonLink {
+    text-decoration: none;
+    color: rgb(24, 70, 24);
+}
+
+.creditsDecrease, .creditsIncrease {
+    cursor: pointer;
+}
