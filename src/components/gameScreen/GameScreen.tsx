@@ -12,7 +12,7 @@ const GameScreen: React.FunctionComponent<gameScreenProps> = ({credits, setCredi
 
     return(
         <div className="gameScreenDiv">Game Screen</div>
-    )
+    );
 }
 
 export default GameScreen;
