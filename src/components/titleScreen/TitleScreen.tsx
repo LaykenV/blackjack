@@ -6,7 +6,7 @@ import goldCredit from "../imgs/goldCredit.png";
 type titleScreenProps = {
     credits: number;
     setCredits: any;
-}
+};
 
 const TitleScreen: React.FunctionComponent<titleScreenProps> = ({credits, setCredits}) => {
 
