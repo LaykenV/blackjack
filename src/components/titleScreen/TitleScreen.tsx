@@ -43,6 +43,6 @@ const TitleScreen: React.FunctionComponent<titleScreenProps> = ({credits, setCre
             </div>
         </div>
     )
-}
+};
 
 export default TitleScreen;
