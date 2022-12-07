@@ -42,7 +42,7 @@ const TitleScreen: React.FunctionComponent<titleScreenProps> = ({credits, setCre
                 <button className="playButton"><Link to="/play" className="buttonLink">Play</Link></button>
             </div>
         </div>
-    )
+    );
 };
 
 export default TitleScreen;
