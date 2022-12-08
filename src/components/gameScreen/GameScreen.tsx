@@ -7,7 +7,7 @@ type gameScreenProps = {
 
 const GameScreen: React.FunctionComponent<gameScreenProps> = ({credits, setCredits}) => {
     const [cards, setCards] = useState([] as any);
-    const [betAmount, setBetAmount] = useState(0 as number);
+    const [betAmount, setBetAmount] = useState(50 as number);
 
 
     return(
