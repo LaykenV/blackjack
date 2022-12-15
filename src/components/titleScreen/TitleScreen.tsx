@@ -21,7 +21,7 @@ const TitleScreen: React.FunctionComponent<titleScreenProps> = ({credits, setCre
         if (credits > 0) {
             setCredits((prevCredits: number) => prevCredits - 50);
         };
-    }
+    };
 
 
     return(
