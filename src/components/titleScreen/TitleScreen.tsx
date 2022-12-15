@@ -20,7 +20,7 @@ const TitleScreen: React.FunctionComponent<titleScreenProps> = ({credits, setCre
     const decrementCredits = () => {
         if (credits > 0) {
             setCredits((prevCredits: number) => prevCredits - 50);
-        }
+        };
     }
 
 
