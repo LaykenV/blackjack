@@ -3,7 +3,7 @@ import React, {useState} from "react";
 type gameScreenProps = {
     credits: number;
     setCredits: any;
-}
+};
 
 const GameScreen: React.FunctionComponent<gameScreenProps> = ({credits, setCredits}) => {
     const [cards, setCards] = useState([] as any);
