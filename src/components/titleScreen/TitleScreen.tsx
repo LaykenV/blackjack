@@ -26,7 +26,7 @@ const TitleScreen: React.FunctionComponent<titleScreenProps> = ({credits, setCre
 
     return(
         <div className="titleScreenDiv">
-            <div className="header">Blackjack</div>
+            <div className="header">Blackjackk</div>
             <div className="creditDiv">
                 <div className="creditsTitle">Choose Your Starting Credits</div>
                 <div className="creditsBody">
